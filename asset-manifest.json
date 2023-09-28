@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Vivo-Tech/static/css/main.926e42c7.css",
+    "main.js": "/Vivo-Tech/static/js/main.30300dba.js",
+    "static/js/787.ca482beb.chunk.js": "/Vivo-Tech/static/js/787.ca482beb.chunk.js",
+    "index.html": "/Vivo-Tech/index.html",
+    "main.926e42c7.css.map": "/Vivo-Tech/static/css/main.926e42c7.css.map",
+    "main.30300dba.js.map": "/Vivo-Tech/static/js/main.30300dba.js.map",
+    "787.ca482beb.chunk.js.map": "/Vivo-Tech/static/js/787.ca482beb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.926e42c7.css",
+    "static/js/main.30300dba.js"
+  ]
+}
