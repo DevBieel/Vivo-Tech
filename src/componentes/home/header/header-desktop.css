@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+/*Variáveis*/
+/*função para estilizar o header*/
+.header-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: 1px solid #353535;
+  background-color: #dde1e7;
+}
+.header-desktop .logo-vivo-desktop {
+  height: 45px;
+}
+.header-desktop .navigation-desktop .nav-item {
+  list-style-type: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #353535;
+}
+.header-desktop .navigation-desktop .nav-item:hover {
+  text-decoration: underline;
+}
+.header-desktop .menu-desktop {
+  display: none;
+}/*# sourceMappingURL=header-desktop.css.map */

@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/*Variáveis*/
+$roxo: #610F7F;
+$branco: #dde1e7;
+$letra: #353535;
+
+/*função para estilizar o header*/
+@mixin styleHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid $letra;
+    background-color: $branco;
+}
+.header-desktop{
+    @include styleHeader();
+
+    .logo-vivo-desktop{
+        height: 45px;
+    }
+
+    .navigation-desktop{
+        .nav-item{
+            list-style-type: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: $letra;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    .menu-desktop{
+        display: none;
+    }
+}
