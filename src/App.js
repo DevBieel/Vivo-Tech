@@ -24,7 +24,7 @@ export default function App(){
       if(p == 'cadastro'){
         window.open('http://192.168.0.83:3000?cadastro', '_self')
       }else{
-        window.open('http://192.168.0.83:3000', '_self')
+        window.open('https://devbieel.github.io/Vivo-Tech/', '_self')
       }
     }
 
