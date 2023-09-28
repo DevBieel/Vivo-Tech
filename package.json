@@ -1,7 +1,6 @@
 {
   "name": "vivo-tech",
   "version": "0.1.0",
-  "homepage": "https://DevBieel.github.ion/Vivo-Tech",
   "private": true,
   "dependencies": {
     "@react-hook/media-query": "^1.1.1",
@@ -15,12 +14,12 @@
     "react-scroll": "^1.8.9",
     "web-vitals": "^2.1.4"
   },
-  "scripts": { "start": "react-scripts start", 
-  "build": "react-scripts build", 
-  "test": "react-scripts test", 
-  "eject": "react-scripts eject", 
-  "predeploy": "npm run build", 
-  "deploy": "gh-pages -d build" } ,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
