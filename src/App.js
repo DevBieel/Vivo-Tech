@@ -22,9 +22,9 @@ export default function App(){
     //Função que vai atribuir o link
     const linkPag = (p) =>{
       if(p == 'cadastro'){
-        window.open('http://192.168.0.83:3000?cadastro', '_self')
+        window.open('http://localhost?cadastro', '_self')
       }else{
-        window.open('https://devbieel.github.io/Vivo-Tech/', '_self')
+        window.open('http://localhost:3000', '_self')
       }
     }
 
