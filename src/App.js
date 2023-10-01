@@ -22,7 +22,7 @@ export default function App(){
     //Função que vai atribuir o link
     const linkPag = (p) =>{
       if(p == 'cadastro'){
-        window.open('http://localhost?cadastro', '_self')
+        window.open('http://localhost:3000?cadastro', '_self')
       }else{
         window.open('http://localhost:3000', '_self')
       }
